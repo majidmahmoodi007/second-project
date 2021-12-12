@@ -40,3 +40,47 @@
     background-color: #f9B500;
 
 }
+.article-title {
+    padding-top: 20px;
+    font-size: 20px; 
+    font-weight: 700;
+}
+.article-title  a {
+    padding-top: 20px;
+    font-size: 20px; 
+    font-weight: 700;
+     
+     
+}
+.info-bar {
+    padding-top: 10px;
+    padding-bottom:20px ;
+    padding-left: 0px;
+}
+.info-bar li {
+    display: inline;
+    margin-right: 20px;
+    line-height: 25px;
+}
+.text-muted {
+    color: #888;
+}
+.text-yellow {
+    color: #f9B500;
+
+}
+a {
+    text-decoration: none;
+    transition: all .2s;
+}
+b {
+    transition: all .2s; 
+    font-weight: 700;
+}
+a:hover {
+    color: #f9B500;   
+
+}
+a:hover > b {
+    color: #f9B500;
+}
